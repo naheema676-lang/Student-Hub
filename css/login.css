@@ -1,0 +1,107 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+
+height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+background:linear-gradient(135deg,#2563eb,#0f172a);
+
+}
+
+.login-box{
+
+background:white;
+
+padding:40px;
+
+width:370px;
+
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+text-align:center;
+
+}
+
+.login-box h2{
+
+margin-bottom:10px;
+
+color:#2563eb;
+
+}
+
+.login-box p{
+
+margin-bottom:25px;
+
+color:#666;
+
+}
+
+.login-box input,
+.login-box select{
+
+width:100%;
+
+padding:14px;
+
+margin:10px 0;
+
+border:1px solid #ccc;
+
+border-radius:8px;
+
+outline:none;
+
+}
+
+.login-box button{
+
+width:100%;
+
+padding:14px;
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+font-size:17px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.login-box button:hover{
+
+background:#1d4ed8;
+
+}
+
+.login-box a{
+
+display:block;
+
+margin-top:20px;
+
+text-decoration:none;
+
+color:#2563eb;
+
+}
